@@ -1,0 +1,3 @@
+!This is just a placeholder to add to GitHub!
+
+This folder should usually have folders or .mjs files.
