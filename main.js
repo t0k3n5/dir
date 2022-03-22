@@ -3,14 +3,17 @@
 
 /* A simple script which will get some basic data and return it using console.log('data'). */
 
-let username = ''
-let password = ''
-let email = ''
+let username = 'asd'
+let password = 'asd'
+let email = 'asd@gmail.com'
+
+/*let splitted = email.split('@')[1]*/
+/*let splitted2 = email.split('@')[2]*/
 
 function secret(string, key)
 {   
-    if (!typeof(string) == 'string') { return }
-    if (!typeof(key) == 'string')
+    /*if (!typeof(string) == 'string') { return }*/
+    /*if (!typeof(key) == 'string')*/
 
     var returnstring = ''
 
@@ -24,4 +27,4 @@ function secret(string, key)
 
 console.log('username: ' + username)
 console.log('password: ' + secret(password, '*'))
-console.log('email: ' + secret("@" + email.split("@")[2]), "*")
+console.log('email: ' + email)
