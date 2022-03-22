@@ -32,3 +32,5 @@ let end_email = secret(split0, "*") + '@' + split1
 console.log('username: ' + username)
 console.log('password: ' + secret(password, '*'))
 console.log('email: ' + end_email)
+
+console.log('-main.js \n')
