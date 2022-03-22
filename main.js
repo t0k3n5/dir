@@ -25,6 +25,10 @@ function secret(string, key)
     return returnstring
 }
 
+let split0 = email.split('@')[0]
+let split1 = email.split('@')[1]
+let end_email = secret(split0, "*") + '@' + split1 
+
 console.log('username: ' + username)
 console.log('password: ' + secret(password, '*'))
-console.log('email: ' + email)
+console.log('email: ' + end_email)
